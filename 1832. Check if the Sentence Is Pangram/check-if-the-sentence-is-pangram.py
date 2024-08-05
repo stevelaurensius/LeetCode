@@ -5,4 +5,4 @@ class Solution:
         for char in sentence:
             if char in alphabet:
                 alphabet.remove(char)
-        return len(alphabet) == 0
+        return alphabet == []
