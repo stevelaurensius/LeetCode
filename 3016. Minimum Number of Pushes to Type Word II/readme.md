@@ -10,10 +10,8 @@
 <p>Return <em>the <strong>minimum</strong> number of pushes needed to type </em><code>word</code> <em>after remapping the keys</em>.</p>
 
 <p>An example mapping of letters to keys on a telephone keypad is given below. Note that <code>1</code>, <code>*</code>, <code>#</code>, and <code>0</code> do <strong>not</strong> map to any letters.</p>
-<img alt="" src="https://assets.leetcode.com/uploads/2023/12/26/keypaddesc.png" style="width: 329px; height: 313px;">
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2023/12/26/keypadv1e1.png" style="width: 329px; height: 313px;">
 <pre><strong>Input:</strong> word = "abcde"
 <strong>Output:</strong> 5
 <strong>Explanation:</strong> The remapped keypad given in the image provides the minimum cost.
@@ -27,7 +25,6 @@ It can be shown that no other mapping can provide a lower cost.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2023/12/26/keypadv2e2.png" style="width: 329px; height: 313px;">
 <pre><strong>Input:</strong> word = "xyzxyzxyzxyz"
 <strong>Output:</strong> 12
 <strong>Explanation:</strong> The remapped keypad given in the image provides the minimum cost.
@@ -40,7 +37,6 @@ Note that the key 9 is not mapped to any letter: it is not necessary to map lett
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2023/12/27/keypadv2.png" style="width: 329px; height: 313px;">
 <pre><strong>Input:</strong> word = "aabbccddeeffgghhiiiiii"
 <strong>Output:</strong> 24
 <strong>Explanation:</strong> The remapped keypad given in the image provides the minimum cost.
